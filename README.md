@@ -20,7 +20,6 @@ pip install numpy
 ## Usage
 
 ```python
-import numpy as np
 
 # Define your tridiagonal system
 a = [0, -1, -1]    # lower diagonal
