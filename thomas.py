@@ -25,14 +25,15 @@ def thomas(a,b,c,d):
         
     return X
 
-# Example system
-a = [0,-1,-1]    # Lower diagonal elements
-b = [4,4,4]      # Main diagonal elements
-c = [-1,-1,0]    # Upper diagonal elements
-d = [2,4,10]     # Right hand side values
+if __name__=="__main__":
+    # Example system
+    a = [0,-1,-1]    # Lower diagonal elements
+    b = [4,4,4]      # Main diagonal elements
+    c = [-1,-1,0]    # Upper diagonal elements
+    d = [2,4,10]     # Right hand side values
 
-X = thomas(a,b,c,d)
-print("The Values of X are : ",X)
+    X = thomas(a,b,c,d)
+    print("The Values of X are : ",X)
 
 
 
